@@ -7,6 +7,7 @@ using RPG.Combat;
 using RPG.Core;
 using UnityEngine.InputSystem.XR.Haptics;
 using System;
+using UnityEngine.AI;
 
 namespace RPG.Control
 {
@@ -17,6 +18,8 @@ namespace RPG.Control
         [SerializeField] PatrolPath patrolPath;
         [SerializeField] float waypointTolerance = 1f;
         [SerializeField] float waypointDwellTime = 3f;
+        [Range(0f, 1f)]
+        [SerializeField] float patrolSpeedFraction = 0.2f;
 
         Fighter fighter;
         GameObject player;
@@ -82,7 +85,7 @@ namespace RPG.Control
 
             if (timeSinceArrivedAtWaypoint > waypointDwellTime)
             {
-                mover.StartMoveAction(nextPosition);
+                mover.StartMoveAction(nextPosition, patrolSpeedFraction);
             }
 
         }

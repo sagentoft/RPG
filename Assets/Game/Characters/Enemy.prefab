@@ -76,7 +76,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2021479158731404463, guid: b96bd08379d661e46aa7953853adc868, type: 3}
       propertyPath: health
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2109488380666450501, guid: b96bd08379d661e46aa7953853adc868, type: 3}
       propertyPath: m_Name
@@ -141,6 +141,10 @@ PrefabInstance:
     - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
       propertyPath: weaponRange
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: weaponDamage
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -218,3 +222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 5
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 3
