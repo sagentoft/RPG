@@ -65,6 +65,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 24e35c49cdfdd3d4ea821f12ec946c9d, type: 2}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
       propertyPath: weaponRange
       value: 1
       objectReference: {fileID: 0}
@@ -72,6 +76,26 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 782495925275295553, guid: 6298f966f72c5ea43bb88f6ed6a1154b, type: 3}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 6870881514715445889}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: weaponOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: 05108860be1997045aa6bb03ee522e69, type: 2}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 6870881514715372265}
+    - target: {fileID: 6100874312042588199, guid: b96bd08379d661e46aa7953853adc868, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 6870881514715445889}
     - target: {fileID: 7945158400684527141, guid: b96bd08379d661e46aa7953853adc868, type: 3}
       propertyPath: uniqueIdentifier
       value: player
@@ -208,8 +232,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+--- !u!4 &6870881514715372265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403948, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+  m_PrefabInstance: {fileID: 6870881514715771653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6870881514715403807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435482, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+  m_PrefabInstance: {fileID: 6870881514715771653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6870881514715445889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461188, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
   m_PrefabInstance: {fileID: 6870881514715771653}
   m_PrefabAsset: {fileID: 0}
