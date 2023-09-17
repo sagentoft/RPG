@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedArrow
       objectReference: {fileID: 0}
+    - target: {fileID: 2156170086360418990, guid: 5edfcd27b23f0504a9e0a2190c3021c9, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 4557324750401299420, guid: 4ae9f8ed0645c854faefdfd647f90afa, type: 3}
     - target: {fileID: 2754607355287242322, guid: 5edfcd27b23f0504a9e0a2190c3021c9, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
       value: 0
